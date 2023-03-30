@@ -2,7 +2,7 @@ package Rikkei.academy;
 
 public class OptimizedPrimeFactorization implements Runnable{
     private Thread t;
-    private int targetNumber;
+    private final int targetNumber;
 
     public OptimizedPrimeFactorization(int targetNumber){
         this.targetNumber = targetNumber;
